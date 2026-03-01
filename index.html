@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Lyrics Portal</title>
+  <title>Community Lyrics Portal</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -14,7 +14,6 @@
 
 <div class="container">
 
-  <!-- Sidebar Categories -->
   <aside class="sidebar">
     <h3>Categories</h3>
     <ul>
@@ -28,21 +27,16 @@
       <li onclick="loadCategory('Regional Folk Songs')">Regional Folk Songs</li>
     </ul>
 
-    <button onclick="showForm()">➕ Submit Lyrics</button>
+    <button onclick="showForm()">➕ Add Lyrics</button>
   </aside>
 
-  <!-- Main Content -->
   <main class="content">
-
     <div id="songList"></div>
-
-    <div id="lyricsView" class="lyricsView"></div>
-
+    <div id="lyricsView"></div>
   </main>
 
 </div>
 
 <script src="app.js"></script>
-
 </body>
 </html>
